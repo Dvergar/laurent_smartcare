@@ -1,4 +1,4 @@
-# Laurent smartcare
+# Lorenzo SmartCare
 
 A little demo to show a points line chart built from data grabbed with grpc + protobuf.
 
