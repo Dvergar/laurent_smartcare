@@ -1,0 +1,1 @@
+protoc --dart_out=grpc:D:\Prog\dart\gs_bluetooth\lib\proto_generated -Iprotos protos/temp.proto

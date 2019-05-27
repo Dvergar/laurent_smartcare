@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package pingpong;
+
+service PingPong {
+  rpc DoPing (Ping) returns (Pong) {}
+  rpc getLastDayTemps(Empty) returns (LastDayTemps) {}
+}
+
+message Empty {
+
+}
+
+message Ping {
+  string name = 1;
+}
+
+message Pong {
+  string message = 1;
+}
+
+message LastDayTemps
+{
+  // string message = 1;
+  repeated int32 datas = 24;
+}
