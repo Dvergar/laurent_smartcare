@@ -6,7 +6,8 @@ import 'package:gs_bluetooth/bloc_bluetooth.dart';
 
 class CONST
 {
-  static const SERVER_IP = "192.168.1.10";
+  static const SERVER_IP = "192.168.1.10"; // IF USING A GSM
+  // static const SERVER_IP = "10.0.2.2"; // IF USING AN EMULATOR
 }
 
 void main() => runApp(MyApp());

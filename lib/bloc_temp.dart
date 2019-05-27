@@ -10,8 +10,7 @@ class BlocTemp {
       streamController.stream; // create a getter for our stream
 
   Future<void> update() async {
-    // final channel = new ClientChannel('10.0.2.2', // FROM EMULATOR
-    final channel = new ClientChannel(CONST.SERVER_IP, // FROM GSM
+    final channel = new ClientChannel(CONST.SERVER_IP,
         port: 10000,
         options: const ChannelOptions(
             credentials: const ChannelCredentials.insecure()));

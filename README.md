@@ -1,16 +1,11 @@
-# gs_bluetooth
+# Laurent smartcare
 
-A new Flutter project.
+A little demo to show a points line chart built from data grabbed with grpc + protobuf.
+
+Also shows a list of scanned bluetooth LE devices.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The server source is located in `lib/server/server.dart`, start it with `dart server.dart`.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Client needs to set server's ip via the variable `SERVER_IP` located in `main.dart`.
